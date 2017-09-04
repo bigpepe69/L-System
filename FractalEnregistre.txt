@@ -1,0 +1,141 @@
+name : Koch curve 1
+axiome : F
+nb regles : 1
+regle 1 : F,F+F-F-F+F
+angle : 90
+Limite d'iteration : 7
+          
+         
+name : Koch curve 2
+axiome : F--F--F
+nb regles : 1
+regle 1 : F,F+F--F+F
+angle : 60
+Limite d'iteration : 6
+       
+       
+name : Sierpinski triangle 1
+axiome : F
+nb regles : 2
+regle 1 : F,G-F-G
+regle 2 : G,F+G+F
+angle : 60
+Limite d'iteration : 9
+       
+       
+name : Sierpinski triangle 2 
+axiome : F-G-G
+nb regles : 2
+regle 1 : F,F-G+F+G-F
+regle 2 : G,GG
+angle : 120
+Limite d'iteration : 8
+       
+       
+name : Dragon curve
+axiome : FX
+nb regles : 2
+regle 1 : X,X+YF+
+regle 2 : Y,-FX-Y
+angle : 90
+Limite d'iteration : 14
+       
+       
+name : Fractal plant
+axiome : X
+nb regles : 2
+regle 1 : X,F-[[X]+X]+F[+FX]-X
+regle 2 : F,FF
+angle : 25
+Limite d'iteration : 6
+       
+       
+name : Plant 1 
+axiome : F
+nb regles : 1
+regle 1 : F,F[+F]F[-F]F
+angle : 25.7
+Limite d'iteration : 6
+       
+       
+name : Plant 2 
+axiome : F
+nb regles : 1
+regle 1 : F,FF+[+F-F-F]-[-F+F+F]
+angle : 22.5
+Limite d'iteration : 4
+       
+       
+name : Cristal
+axiome : [F]+[F]+[F]+[F]+[F]+[F]
+nb regles : 1
+regle 1 : F,FFF[F][+[F]+F][-[F]-F]
+angle : 60
+Limite d'iteration : 4
+       
+       
+name : Hilbert Curve
+axiome : Y
+nb regles : 2
+regle 1 : X,-YF+XFX+FY-
+regle 2 : Y,+XF-YFY-FX+
+angle : 90
+Limite d'iteration : 7
+       
+       
+name : Cross Curve 
+axiome : F+XF+F+XF
+nb regles : 1
+regle 1 : X,XF-F+F-XF+F+XF-F+F-X
+angle : 90
+Limite d'iteration : 6
+       
+       
+name : Snake Curve 
+axiome : +X++X
+nb regles : 1
+regle 1 : X,XFX++XFX
+angle : 45
+Limite d'iteration : 7
+       
+       
+name : Fractal Factory
+axiome : X
+nb regles : 2
+regle 1 : X,X[[X]+X]+F[+FX]-X
+regle 2 : F,FF
+angle : 25
+Limite d'iteration : 6
+       
+       
+name : SierpinskiCarpet
+axiome : F
+nb regles : 2
+regle 1 : F,F+F-F-F-G+F+F+F-F
+regle 2 : G,GGG
+angle : 90
+Limite d'iteration : 5
+       
+       
+name : Terdragon
+axiome : F
+nb regles : 1
+regle 1 : F,F+F-F
+angle : 120
+Limite d'iteration : 9
+       
+       
+name : Levy
+axiome : F
+nb regles : 1
+regle 1 : F,+F--F+
+angle : 45
+Limite d'iteration : 13
+          
+         
+name : Pentadendrite
+axiome : F
+nb regles : 1
+regle 1 : F,F+F-F--F+F+F
+angle : 72
+Limite d'iteration : 6
